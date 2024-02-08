@@ -1,4 +1,4 @@
-﻿using Report;
+﻿using ReportManager;
 
 namespace ProductManager;
 
@@ -21,7 +21,7 @@ public class ProductItem : IProduct
 }
 
 
-public class Product : Report<ProductItem>
+public class Product : Report
 {
     public string Label { get; } = "Products";
 
