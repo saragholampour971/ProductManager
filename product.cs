@@ -21,7 +21,7 @@ public class ProductItem : IProduct
 }
 
 
-public class Product : IReport<ProductItem>
+public class Product : Report<ProductItem>
 {
     public string Label { get; } = "Products";
 
@@ -46,7 +46,7 @@ public class Product : IReport<ProductItem>
 
       this.SubMenus=new List<ISubMenu>()
         {
-            new SubMenu("get Count", GetCount)
+            new SubMenu("get Count", GetCount),
         };
     }
 

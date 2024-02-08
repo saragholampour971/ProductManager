@@ -7,13 +7,9 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Reference Include="Report, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Reference Include="Report">
         <HintPath>Refrences\Report.dll</HintPath>
       </Reference>
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="Refrences" />
     </ItemGroup>
 
 </Project>
